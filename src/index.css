@@ -240,7 +240,7 @@ main{
 @media only screen and (min-width: 400px){
   /*home*/
   .my-class-home{
-    background-image: url(./assets/home/background-home-mobile.jpg);
+    background-image: url(/public/assets/home/background-home-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     }
@@ -367,7 +367,7 @@ main{
 @media only screen and (min-width: 768px){
   /*home*/
   .my-class-home{
-  background-image: url(./assets/home/background-home-tablet.jpg);
+  background-image: url(/public/assets/home/background-home-tablet.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   }
@@ -499,7 +499,7 @@ picture{
 @media only screen and (min-width: 992px){
   /*home*/
   .my-class-home{
-    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-image: url(/public/assets/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   }
