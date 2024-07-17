@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './components/home';
 import Technology from './components/technology';
 import Destinations from './components/destinations';
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 
-    <BrowserRouter>
+    <HashRouter>
 
     <Routes>
     <Route path="/" element={<Layout />}>
@@ -25,7 +25,7 @@ function App() {
     </Route>
    
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
